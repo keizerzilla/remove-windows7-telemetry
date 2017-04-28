@@ -4,7 +4,7 @@ Credits: https://www.reddit.com/r/pcmasterrace/comments/3g7hr0/removing_telemetr
 
 ## transcript
 
-Remove the following updates (if installed already)
+* Remove the following updates (if installed already)
 
 KB3068708 Update for customer experience and diagnostic telemetry
 
@@ -23,14 +23,14 @@ KB3021917 Update to Windows 7 SP1 for performance improvements
 KB3044374 Update that enables you to upgrade from Windows 8.1 to a later version of Windows
 
 
-*cmd:
+* cmd:
 
 
 sc stop Diagtrack
 
 sc delete Diagtrack
 
-*Task Scheduler Library:
+* Task Scheduler Library:
 
 Everything under "Application Experience"
 
@@ -45,7 +45,7 @@ Under "Maintenance" "WinSAT"
 "Media Center" and click the "status" column, then select all non-disabled entries and disable them.
 
 
-*services.msc:
+* services.msc:
 
 
 "Remote Registry" to "Disabled" instead of "Manual".
