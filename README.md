@@ -4,7 +4,7 @@ Credits: https://www.reddit.com/r/pcmasterrace/comments/3g7hr0/removing_telemetr
 
 ## Wow To
 
-+ **Remove the following updates:**
++ **Remove the following updates: delete**
 
 **KB3068708** Update for customer experience and diagnostic telemetry
 
@@ -23,7 +23,7 @@ Credits: https://www.reddit.com/r/pcmasterrace/comments/3g7hr0/removing_telemetr
 **KB3044374** Update that enables you to upgrade from Windows 8.1 to a later version of Windows
 
 
-+ **cmd:**
++ **cmd: run**
 
 ```
 sc stop Diagtrack
@@ -31,7 +31,7 @@ sc stop Diagtrack
 sc delete Diagtrack
 ```
 
-+ **Task Scheduler Library:**
++ **Task Scheduler Library: disable and delete**
 
 Everything under "Application Experience"
 
