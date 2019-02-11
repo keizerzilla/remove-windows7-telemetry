@@ -1,10 +1,13 @@
-# remove-win7-telemetry
+## remove-windows-telemetry
 
-Credits: https://www.reddit.com/r/pcmasterrace/comments/3g7hr0/removing_telemetry_from_windows_7_and_8x/
+Credits:
+- https://www.reddit.com/r/pcmasterrace/comments/3g7hr0/removing_telemetry_from_windows_7_and_8x/
+- https://spreadprivacy.com/windows-7-privacy-tips/
+- https://github.com/nalal/Windows-Telemetry-Remover
 
-## Wow To
+## FRIENDLY REMINDER THAT WINDOWS 7 SECURITY SUPPORT WILL END BY JANUARY/2020! CONSIDER SWAPPING TO A GNU/LINUX DISTRIBUITION (WINDOWS 10 IS SHIT)! START HERE: https://www.ubuntu.com/
 
-+ **Remove the following updates: delete**
+### Remove the following updates:
 
 **KB3068708** Update for customer experience and diagnostic telemetry
 
@@ -22,8 +25,17 @@ Credits: https://www.reddit.com/r/pcmasterrace/comments/3g7hr0/removing_telemetr
 
 **KB3044374** Update that enables you to upgrade from Windows 8.1 to a later version of Windows
 
+**KB3139929** Security update for Internet Explorer
 
-+ **cmd: run**
+**KB3146449** Updated Internet Explorer 11 capabilities to upgrade to Windows 10
+
+**KB3083710** Windows Update Client
+
+**KB3083324** Windows Update Client
+
+**KB971033** Windows Activation Technologies
+
+### cmd.exe: run this
 
 ```
 sc stop Diagtrack
@@ -31,7 +43,7 @@ sc stop Diagtrack
 sc delete Diagtrack
 ```
 
-+ **Task Scheduler Library: disable and delete**
+### Task Scheduler Library: disable and delete this
 
 Everything under "Application Experience"
 
@@ -45,8 +57,6 @@ Under "Maintenance" "WinSAT"
 
 "Media Center" and click the "status" column, then select all non-disabled entries and disable them.
 
-
-+ **services.msc:**
-
+### services.msc: do this procedure
 
 "Remote Registry" to "Disabled" instead of "Manual".
