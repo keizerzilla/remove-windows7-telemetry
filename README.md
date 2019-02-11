@@ -47,7 +47,7 @@ sc delete Diagtrack
 
 ### Task Scheduler Library: disable and delete this
 
-![Figure for reference](assets/task-scheduler-tip.png)
+![Figure for reference](task-scheduler-tip.png)
 
 Everything under "Application Experience"
 
