@@ -43,7 +43,11 @@ sc stop Diagtrack
 sc delete Diagtrack
 ```
 
+## You will find the following applications using the Start Menu search bar
+
 ### Task Scheduler Library: disable and delete this
+
+![Figure for reference](assets/task-scheduler-tip.png)
 
 Everything under "Application Experience"
 
